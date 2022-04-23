@@ -1,0 +1,32 @@
+{
+  "name": "pbjkit",
+  "version": "0.1.0",
+  "description": "CEDICT sandwich maker",
+  "main": "./pbj-cli.js",
+  "scripts": {
+    "test": "sh ./test/test1.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pffy/pbjkit.git"
+  },
+  "keywords": [],
+  "author": "The Pffy Authors (https://pffy.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pffy/pbjkit/issues"
+  },
+  "homepage": "https://github.com/pffy/pbjkit#readme",
+  "dependencies": {
+    "-": "0.0.1",
+    "cedict-line-parser-js": "git+https://github.com/pffy/cedict-line-parser-js.git",
+    "chalk": "^4.1.0",
+    "g": "^2.0.1",
+    "metapinyin-js": "github:pffy/metapinyin-js",
+    "yargs": "^16.1.1"
+  },
+  "bin": {
+    "pbj": "./pbj-cli.js",
+    "pbjson": "./pbjson-cli.js"
+  }
+}
