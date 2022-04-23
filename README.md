@@ -22,6 +22,9 @@ You can can also:
 ```bash
 $ npm i -g github:pffy/pbjkit
 ```
+# TROUBLESHOOT
+
+  + Fixing the [EACCES error issue on Linux for Chromebook](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
 
 # QUICK START
 
