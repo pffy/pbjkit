@@ -32,7 +32,9 @@ You are all set!
 
 # TROUBLESHOOT
 
-On Linus for Chromebooks or Virtual Machines (VMs) you may have restricted user accounts. This may prevent the global installation npm in the default locations.
+On Linus for Chromebooks or Virtual Machines (VMs) you may have restricted user accounts. This may prevent the global installation of npm in the default locations.
+
+This issue may be called an EACCES error or something similar.
 
 To fix this issue, first make a new local npm global folder in your home directory.
 ```bash
