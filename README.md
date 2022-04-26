@@ -25,7 +25,7 @@ $ npm i -g github:pffy/pbjkit
 
 Then, check your installation:
 ```bash
-$ pbj --version
+$ pbj
 ```
 
 You are all set!
@@ -62,6 +62,11 @@ $ source ~/.profile
 Now, try to reinstall:
 ```bash
 $ npm i -g github:pffy/pbjkit
+```
+
+Then, check your install:
+```bash
+$ pbj
 ```
 
 > **NOTE:** Details about this and similar fixes for the [EACCES error issue on Linux for Chromebook][npm_fix].
