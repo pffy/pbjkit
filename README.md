@@ -22,9 +22,49 @@ You can can also:
 ```bash
 $ npm i -g github:pffy/pbjkit
 ```
+
+Then, check your installation:
+```bash
+$ pbj --version
+```
+
+You are all set!
+
 # TROUBLESHOOT
 
-  + Fixing the [EACCES error issue on Linux for Chromebook](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
+On Linus for Chromebooks or Virtual Machines (VMs) you may have restricted user accounts.
+
+To fix this, first make a new local npm global folder in your home directory.
+```bash
+$ mkdir ~/.npm-global
+```
+
+Then, tell npm to use that new global folder:
+```bash
+$ npm config set prefix '~/.npm-global'
+```
+
+If you have a `~/.profile` file in your home directory, then add this line:
+```bash
+export PATH=~/.npm-global/bin:$PATH
+```
+
+If there is no `~/profile` file, you can simply do this:
+```bash
+$ echo export PATH=~/.npm-global/bin:$PATH > ~/.profile
+```
+
+Then, on the command line, enter this:
+```bash
+$ source ~/.profile
+```
+
+Now, try to reinstall:
+```bash
+$ npm i -g github:pffy/pbjkit
+```
+
+> **NOTE:** Details about this and similar fixes for the [EACCES error issue on Linux for Chromebook][npm_fix].
 
 # QUICK START
 
@@ -255,3 +295,4 @@ As you can see, you can build several custom CEDICT dictionaries very quickly by
 
 [pb]: https://github.com/pffy/pinyinbase
 [node]: https://nodejs.org
+[npm_fix]: https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
