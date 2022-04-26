@@ -37,7 +37,7 @@ $ git clone https://github.com/pffy/pinyinbase
 ### 2. Combine all the glossaries in the folder into a single CEDICT file:
 
 ```bash
-$ pbj ./pinyinbase/vocab/*.txt
+$ pbj -i ./pinyinbase/vocab/*.txt
 ```
 The output file is **pb.txt** (a CEDICT-format dictionary file).
 
