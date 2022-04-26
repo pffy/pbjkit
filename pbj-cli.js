@@ -165,7 +165,7 @@ function getDatedOutfile() {
 // returns comments for outfile
 function getComments() {
   return `
-# Your custom CEDICT-formatted dictionary.
+# [title-here]
 #
 # Compiled by pbj.
 # https://github.com/pffy/pbjkit
