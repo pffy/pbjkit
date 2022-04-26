@@ -81,7 +81,7 @@ All three files will be combined into a single CEDICT-formatted file called **pb
 
 
 ### `-d`
-Adds epoch date to output file.
+Adds epoch date to output filename.
 ```bash
 $ pbj -d -i file1 file2
 ```
