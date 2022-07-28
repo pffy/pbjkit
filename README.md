@@ -16,16 +16,19 @@ Command-line Chinese-English dictionary development kit for [Pinyinbase][pb], CC
 + Requires [NodeJS][node].
 
 
-From within your home (`~`) directory:
+From within your home (`~`) directory, install Pinyinbase:
 ```bash
 $ npm i -g git+https://github.com/pffy/pbjkit.git
 ```
-You can can also:
+
+Alternatively, you can can install Pinyinbase like this:
 ```bash
 $ npm i -g github:pffy/pbjkit
 ```
 
-Then, check your installation:
+
+
+After installation, make sure everything is peachy keen:
 ```bash
 $ pbj
 ```
