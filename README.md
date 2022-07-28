@@ -15,6 +15,8 @@ Command-line Chinese-English dictionary development kit for [Pinyinbase][pb], CC
 ## Requirements
 + Requires [NodeJS][node].
 
+
+From within your home (`~`) directory:
 ```bash
 $ npm i -g git+https://github.com/pffy/pbjkit.git
 ```
