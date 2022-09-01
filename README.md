@@ -56,7 +56,7 @@ If you have a `~/.profile` file in your home directory, then add this line:
 export PATH=~/.npm-global/bin:$PATH
 ```
 
-If there is no `~/profile` file, you can simply do this:
+If there is no `~/profile` file, you can simply create a new file:
 ```bash
 $ echo export PATH=~/.npm-global/bin:$PATH > ~/.profile
 ```
@@ -80,13 +80,13 @@ $ pbj
 
 # QUICK START
 
-### 1. Download Pinyinbase or any other distributed CEDICT-format dictionary into your working directory:
+#### 1. Download Pinyinbase or any other distributed CEDICT-format dictionary into your working directory:
 
 ```bash
 $ git clone https://github.com/pffy/pinyinbase
 ```
 
-### 2. Combine all the glossaries in the folder into a single CEDICT file:
+#### 2. Combine all the glossaries in the folder into a single CEDICT file:
 
 ```bash
 $ pbj -i ./pinyinbase/vocab/*.txt
